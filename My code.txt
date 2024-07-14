@@ -1,0 +1,117 @@
+////defult screen
+
+<div class="card p-3">
+          <div class="rounded-lg overflow-hidden relative group cursor-pointer">
+            <img src="./images/58oia61564916529.jpg" alt="" />
+            <div
+              class="bg-white bg-opacity-70 absolute top-0 bottom-0 left-0 right-0 translate-y-[100%] group-hover:translate-y-0 duration-[0.7s] flex items-center"
+            >
+              <h2 class="text-main text-2xl font-bold pl-3">Corba</h2>
+            </div>
+          </div>
+        </div>
+
+////////category
+
+
+<div class="card p-3">
+                <div class="rounded-lg overflow-hidden relative group cursor-pointer">
+                  <img src="./images/58oia61564916529.jpg" alt="name of category" />
+                  <div
+                    class="bg-white bg-opacity-70 text-center absolute top-0 bottom-0 left-0 right-0 translate-y-[100%] group-hover:translate-y-0 duration-[0.7s]"
+                  >
+                    <h2 class="text-main text-2xl font-bold pl-3 my-3">name of category </h2>
+                    <p class="text-main text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, aspernatur.</p>
+                  </div>
+                </div>
+              </div>
+
+
+///// Area 
+
+
+<div class="card p-3">
+                <div class="rounded-lg overflow-hidden relative group cursor-pointer text-center">
+                    <i class="fa-solid fa-house-laptop fa-4x "></i>
+                    <h2 class="mt-2 font-bold">Country</h2>
+                </div>
+            </div>
+
+
+
+////// ingredients
+
+
+<div class="card p-3">
+                <div class="rounded-lg overflow-hidden relative group cursor-pointer text-center">
+                    <i class="fa-solid fa-drumstick-bite fa-4x "></i>
+                    <h2 class="mx-3 font-bold">نوع الاكل </h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis vero facilis molestiae nihil atque aut!</p>
+                </div>
+            </div>
+
+
+
+
+//// details
+
+
+<div class=" md:w-1/2 lg:w-1/3 overflow-hidden ">
+                <img src="./images/58oia61564916529.jpg" class="rounded-lg"  alt="name of meal">
+                <h2 class="text-3xl">name of meal</h2>
+            </div>
+            <div class="lg:w-2/3 md:w-1/2">
+                <h3 class="text-2xl font-semibold">Instructions</h3>
+                <p>الوصفة</p>
+                <p class="text-3xl font-bold">Area :
+                    <span class="text-3xl font-semibold">Name ofArea</span>
+                </p>
+                <p class="text-3xl font-bold">Category :
+                    <span class="text-3xl font-semibold">Name of Category</span>
+                </p>
+                <p class="text-3xl font-bold">Recipes :</p>
+                <div class="recipes flex flex-wrap my-4  gap-2">
+                    <p class="w-fit bg-sky-400 text-gray-800 py-2 px-3 rounded-lg">1 Packet Filo Pastry</p>
+                    <p class="w-fit bg-sky-400 text-gray-800 py-2 px-3 rounded-lg">1 Packet Filo Pastry</p>
+                    <p class="w-fit bg-sky-400 text-gray-800 py-2 px-3 rounded-lg">1 Packet Filo Pastry</p>
+                    <p class="w-fit bg-sky-400 text-gray-800 py-2 px-3 rounded-lg">1 Packet Filo Pastry</p>
+                </div>
+                <div class="tags "> 
+                    <p class="text-3xl font-bold my-5">Tags :</p>
+                    <a class="py-3 px-4 bg-green-900 rounded-lg hover:bg-green-600 duration-1000" href="">Source</a>
+                    <a class="py-3 px-4 bg-red-900 rounded-lg hover:bg-red-600 duration-1000" href="">Youtube</a>
+                </div>
+            </div>
+
+
+////// contact us
+
+<div class="myContainer flex flex-wrap gap-4 justify-center mt-12 lg:mt-52 ">
+        <input type="text" class="outline-none text-gray-700 p-2 w-11/12 lg:w-[48%]" placeholder="Enter Your Name">
+        <input type="email" class="outline-none text-gray-700 p-2 w-11/12 lg:w-[48%]" placeholder="Enter Your Email">
+        <input type="tel" class="outline-none text-gray-700 p-2 w-11/12 lg:w-[48%]" placeholder="Enter Your Phone">
+        <input type="number" class="outline-none text-gray-700 p-2 w-11/12 lg:w-[48%]" placeholder="Enter Your Age">
+        <input type="password" class="outline-none text-gray-700 p-2 w-11/12 lg:w-[48%]" placeholder="Enter Your Password">
+        <input type="password" class="outline-none text-gray-700 p-2 w-11/12 lg:w-[48%]" placeholder="Repassword">
+        <button class="text-red-600 border-2 border-red-600 px-4 rounded-lg">Submit</button>
+    </div>
+
+
+/////// search
+
+<div class="lg:flex justify-between lg:px-24 myContainer">
+        <input
+          type="text"
+          placeholder="Search By Name"
+          class="p-2 w-full mb-4 bg-main border border-gray-500 lg:mr-3 rounded-lg"
+        />
+        <input
+          type="text"
+          placeholder="Search By First Letter"
+          class="p-2 w-full mb-4 bg-main border border-gray-500 rounded-lg"
+        />
+      </div>
+      <div class="myContainer flex flex-wrap">
+        <!-- search output as defult screen -->
+      </div>
+

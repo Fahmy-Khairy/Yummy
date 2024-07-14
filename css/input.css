@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-main text-[#f9f6f6];
+}
+
+.myContainer{
+
+    @apply w-full pl-14 mx-auto pt-3 lg:w-11/12
+
+}
+
+.cardCategory{
+    @apply w-full rounded-lg overflow-hidden md:w-1/4 
+}
+.cardMeal{
+    @apply w-full rounded-lg overflow-hidden md:w-1/4 
+}
+.cardArea{
+    @apply w-full rounded-lg overflow-hidden md:w-1/4 
+}
+.cardIngredient{
+    @apply w-full rounded-lg overflow-hidden md:w-1/4 
+}
+.card{
+    @apply w-full rounded-lg overflow-hidden md:w-1/4 
+}
+
+.louding{
+    @apply absolute top-0 bottom-0 left-[56PX] right-0 text-center mt-72 bg-main bg-opacity-50
+}

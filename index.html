@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <!-- site icon  -->
+    <link rel="icon" href="./images/logo.png" />
+    <!-- fontAwesome css -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Tailwind file css -->
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+
+
+    <!-- ===================== Layer ===================== -->
+
+    <div class="louding hidden">
+      <i class="fa-solid fa-spinner fa-spin-pulse text-6xl"></i>
+    </div>
+    
+    <!-- ===================== Layer ===================== -->
+    <!-- ===================== navbar ===================== -->
+    <nav class="fixed z-50 flex -left-[240px]">
+      <div
+        class="text-white py-7 px-7 max-w-60 flex flex-col justify-between bg-main"
+      >
+        <div>
+          <ul class="divide-y-4 divide-main">
+            <li
+              class="py-2 relative top-[300px] opacity-0 cursor-pointer"
+              data-target="Search"
+            >
+              Search
+            </li>
+            <li
+              class="py-2 relative top-[300px] opacity-0 cursor-pointer"
+              data-target="Categories"
+            >
+              Categories
+            </li>
+            <li
+              class="py-2 relative top-[300px] opacity-0 cursor-pointer"
+              data-target="Area"
+            >
+              Area
+            </li>
+            <li
+              class="py-2 relative top-[300px] opacity-0 cursor-pointer"
+              data-target="Ingredients"
+            >
+              Ingredients
+            </li>
+            <li
+              class="py-2 relative top-[300px] opacity-0 cursor-pointer"
+              data-target="ContactUs"
+            >
+              Contact Us
+            </li>
+          </ul>
+        </div>
+        <footer>
+          <i class="cursor-pointer fa-brands fa-facebook"></i>
+          <i class="cursor-pointer fa-brands fa-twitter"></i>
+          <i class="cursor-pointer fa-solid fa-globe"></i>
+          <p>Copyright Â© 2019 All Rights Reserved.</p>
+        </footer>
+      </div>
+      <div
+        class="bg-white flex flex-col py-4 px-3 items-center w-14 h-screen justify-between"
+      >
+        <img src="./images/logo.png" class="w-12" alt="Yummy" />
+        <i
+          class="changebtn fa-solid fa-bars fa-2x cursor-pointer text-main"
+        ></i>
+        <div class="text-center">
+          <i class="fa-solid fa-globe fa-1 cursor-pointer text-main"></i>
+          <i class="fa-solid fa-share-nodes fa-1 cursor-pointer text-main"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- ===================== navbar ===================== -->
+
+    <!-- ===================== search =====================  -->
+
+    <section id="inputBox"></section>
+
+    <!-- ===================== search =====================  -->
+    <!-- ===================== search =====================  -->
+
+    <section id="detailsBox">
+      <div class="myContainer pl md:flex gap-3"></div>
+    </section>
+
+    <!-- ===================== search =====================  -->
+
+    <!-- ===================== defult screen =====================  -->
+
+    <section id="dataBox">
+      <div class="myContainer flex flex-wrap"></div>
+    </section>
+
+    <!-- ===================== defult screen =====================  -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
